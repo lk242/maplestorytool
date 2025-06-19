@@ -1,0 +1,44 @@
+@model MapleStoryTools.Models.ExperienceViewModel
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Experience Calculator</title>
+</head>
+<body>
+    <h1>Experience Calculator</h1>
+    <form asp-action="Index" method="post">
+        <div>
+            <label asp-for="StartExperience"></label>
+            <input asp-for="StartExperience" />
+            <span asp-validation-for="StartExperience"></span>
+        </div>
+        <div>
+            <label asp-for="StartTime"></label>
+            <input asp-for="StartTime" type="datetime-local" />
+            <span asp-validation-for="StartTime"></span>
+        </div>
+        <div>
+            <label asp-for="EndExperience"></label>
+            <input asp-for="EndExperience" />
+            <span asp-validation-for="EndExperience"></span>
+        </div>
+        <div>
+            <label asp-for="EndTime"></label>
+            <input asp-for="EndTime" type="datetime-local" />
+            <span asp-validation-for="EndTime"></span>
+        </div>
+        <button type="submit">Calculate</button>
+    </form>
+
+@if (Model.ExperienceGained != 0 || Model.Minutes != 0)
+{
+    <div>
+        <p>Total Minutes: @Model.Minutes</p>
+        <p>Experience Gained: @Model.ExperienceGained</p>
+        <p>Experience per Minute: @Model.ExperiencePerMinute</p>
+    </div>
+}
+</body>
+</html>
