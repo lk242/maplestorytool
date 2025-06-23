@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="utf-8" />
+    <title>@ViewData["Title"] - 楓之谷工具站</title>
+    <link rel="stylesheet" href="~/css/site.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <h1>🎮 楓之谷工具站</h1>
+            <nav>
+                <a href="/Account/Login">登入</a>
+                <a href="/Account/Register">註冊</a>
+                <a href="/ExpCalculator">經驗計算</a>
+                <a href="/Tool/ArtaleDrop">掉落查詢</a>
+                <a href="/Tool/Goddess">女神塔工具</a>
+            </nav>
+        </div>
+    </header>
+    <main class="content">
+        @RenderBody()
+    </main>
+    <footer>
+        <p>© 2025 MapleStoryTools | 這不是官方網站</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,29 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\personal\\maplestorytool\\MapleStoryTools\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.MapleStoryTools.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.MapleStoryTools.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.MapleStoryTools.props",
+      "PackagePath": "build\\MapleStoryTools.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.MapleStoryTools.props",
+      "PackagePath": "buildMultiTargeting\\MapleStoryTools.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.MapleStoryTools.props",
+      "PackagePath": "buildTransitive\\MapleStoryTools.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

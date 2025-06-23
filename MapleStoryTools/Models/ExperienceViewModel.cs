@@ -6,19 +6,19 @@ namespace MapleStoryTools.Models
     public class ExperienceViewModel
     {
         [Required]
-        [Display(Name = "Start Experience")]
+        [Display(Name = "起始經驗值")]
         public int StartExperience { get; set; }
 
         [Required]
-        [Display(Name = "Start Time")]
+        [Display(Name = "起始時間")]
         public DateTime StartTime { get; set; }
 
         [Required]
-        [Display(Name = "End Experience")]
+        [Display(Name = "結束經驗值")]
         public int EndExperience { get; set; }
 
         [Required]
-        [Display(Name = "End Time")]
+        [Display(Name = "結束時間")]
         public DateTime EndTime { get; set; }
 
         public int ExperienceGained { get; set; }

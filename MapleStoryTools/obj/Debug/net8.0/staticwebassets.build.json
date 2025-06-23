@@ -1,0 +1,125 @@
+{
+  "Version": 1,
+  "Hash": "88Kt1NMW5aRX5lgEU0mCWUeI2d/jq47iegZXzkD5Sws=",
+  "Source": "MapleStoryTools",
+  "BasePath": "_content/MapleStoryTools",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "MapleStoryTools\\wwwroot",
+      "Source": "MapleStoryTools",
+      "ContentRoot": "D:\\personal\\maplestorytool\\MapleStoryTools\\wwwroot\\",
+      "BasePath": "_content/MapleStoryTools",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\personal\\maplestorytool\\MapleStoryTools\\wwwroot\\css\\site.css",
+      "SourceId": "MapleStoryTools",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\personal\\maplestorytool\\MapleStoryTools\\wwwroot\\",
+      "BasePath": "_content/MapleStoryTools",
+      "RelativePath": "css/site#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "oh0y2hb5xs",
+      "Integrity": "BLMh6nyopICwxSE8KqKrEfAhiGqY0a/oR7PZJUcdMx4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\site.css"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "css/site.css",
+      "AssetFile": "D:\\personal\\maplestorytool\\MapleStoryTools\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1271"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BLMh6nyopICwxSE8KqKrEfAhiGqY0a/oR7PZJUcdMx4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Jun 2025 08:18:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-BLMh6nyopICwxSE8KqKrEfAhiGqY0a/oR7PZJUcdMx4="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.oh0y2hb5xs.css",
+      "AssetFile": "D:\\personal\\maplestorytool\\MapleStoryTools\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1271"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BLMh6nyopICwxSE8KqKrEfAhiGqY0a/oR7PZJUcdMx4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Jun 2025 08:18:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "oh0y2hb5xs"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-BLMh6nyopICwxSE8KqKrEfAhiGqY0a/oR7PZJUcdMx4="
+        }
+      ]
+    }
+  ]
+}

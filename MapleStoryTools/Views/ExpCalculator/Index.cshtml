@@ -1,0 +1,31 @@
+﻿@model MapleStoryTools.Models.ExpCalcInput
+
+<h2>經驗值計算器</h2>
+
+<form method="post">
+    <div>
+        <label>起始經驗值：</label>
+        <input asp-for="StartExp" required />
+    </div>
+    <div>
+        <label>起始時間：</label>
+        <input asp-for="StartTime" type="datetime-local" required />
+    </div>
+    <div>
+        <label>結束經驗值：</label>
+        <input asp-for="EndExp" required />
+    </div>
+    <div>
+        <label>結束時間：</label>
+        <input asp-for="EndTime" type="datetime-local" required />
+    </div>
+    <button type="submit">計算</button>
+</form>
+
+@if (ViewBag.TotalExp != null)
+{
+    <hr />
+    <p>總共獲得經驗：<strong>@ViewBag.TotalExp</strong></p>
+    <p>總共耗時（分鐘）：<strong>@ViewBag.TotalMinutes:F1</strong></p>
+    <p>每分鐘平均經驗：<strong>@ViewBag.ExpPerMinute:F2</strong></p>
+}

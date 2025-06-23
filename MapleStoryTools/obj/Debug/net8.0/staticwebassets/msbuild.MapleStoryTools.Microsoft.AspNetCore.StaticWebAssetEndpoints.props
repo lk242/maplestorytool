@@ -1,0 +1,16 @@
+﻿<Project>
+  <ItemGroup>
+    <StaticWebAssetEndpoint Include="_content/MapleStoryTools/css/site.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-BLMh6nyopICwxSE8KqKrEfAhiGqY0a/oR7PZJUcdMx4="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1271"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022BLMh6nyopICwxSE8KqKrEfAhiGqY0a/oR7PZJUcdMx4=\u0022"},{"Name":"Last-Modified","Value":"Thu, 19 Jun 2025 08:18:09 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MapleStoryTools/css/site.oh0y2hb5xs.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"oh0y2hb5xs"},{"Name":"integrity","Value":"sha256-BLMh6nyopICwxSE8KqKrEfAhiGqY0a/oR7PZJUcdMx4="},{"Name":"label","Value":"_content/MapleStoryTools/css/site.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1271"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022BLMh6nyopICwxSE8KqKrEfAhiGqY0a/oR7PZJUcdMx4=\u0022"},{"Name":"Last-Modified","Value":"Thu, 19 Jun 2025 08:18:09 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+  </ItemGroup>
+</Project>

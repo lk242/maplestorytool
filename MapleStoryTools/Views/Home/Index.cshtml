@@ -14,30 +14,38 @@
             <input asp-for="StartExperience" />
             <span asp-validation-for="StartExperience"></span>
         </div>
+        <br />
         <div>
             <label asp-for="StartTime"></label>
             <input asp-for="StartTime" type="datetime-local" />
             <span asp-validation-for="StartTime"></span>
         </div>
+        <br />
         <div>
             <label asp-for="EndExperience"></label>
             <input asp-for="EndExperience" />
             <span asp-validation-for="EndExperience"></span>
         </div>
+        <br />
         <div>
             <label asp-for="EndTime"></label>
             <input asp-for="EndTime" type="datetime-local" />
             <span asp-validation-for="EndTime"></span>
         </div>
+        <br />
         <button type="submit">Calculate</button>
     </form>
 
+<br />
+<br />
 @if (Model.ExperienceGained != 0 || Model.Minutes != 0)
 {
     <div>
-        <p>Total Minutes: @Model.Minutes</p>
-        <p>Experience Gained: @Model.ExperienceGained</p>
-        <p>Experience per Minute: @Model.ExperiencePerMinute</p>
+        <p>總共花費時間: @Model.Minutes.ToString("N0") 分鐘</p>
+        <br />
+        <p>總共獲得經驗: @Model.ExperienceGained</p>
+        <br />
+        <p>平均每分鐘獲得: @Model.ExperiencePerMinute.ToString("N0") 經驗</p>
     </div>
 }
 </body>
